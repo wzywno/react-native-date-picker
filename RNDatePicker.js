@@ -1,6 +1,7 @@
-import React, {
+import React, {Component} from 'react';
+
+import {
     Platform,
-    Component,
     Modal,
     View,
     DatePickerIOS,
