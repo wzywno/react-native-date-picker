@@ -106,7 +106,6 @@ export default class CustomDatePicker extends Component {
         if (Platform.OS === 'ios') {
             return (
                 <Modal
-                    animated
                     transparent
                     visible={this.state.showModal}
                 >
@@ -188,7 +187,8 @@ const styles = StyleSheet.create({
         top: 0,
         left: 0,
         alignItems: 'center',
-        justifyContent: 'flex-end'
+        justifyContent: 'flex-end',
+        backgroundColor: 'rgba(0,0,0,0.7)'
     },
     btnContainer: {
         width: WIN.width,
