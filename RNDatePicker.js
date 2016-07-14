@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
         left: 0,
         alignItems: 'center',
         justifyContent: 'flex-end',
-        backgroundColor: 'rgba(0,0,0,0.7)'
+        backgroundColor: 'rgba(0,0,0,0.5)'
     },
     btnContainer: {
         width: WIN.width,
