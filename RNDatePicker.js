@@ -55,6 +55,7 @@ export default class CustomDatePicker extends Component {
     }
 
     openIOSDatePicker() {
+        this.props.onOpen ? this.props.onOpen() : null;
         this.setState({ showModal: true });
     }
 
@@ -163,6 +164,7 @@ export default class CustomDatePicker extends Component {
 CustomDatePicker.propTypes = {
     onDone: React.PropTypes.func.isRequired,
     onCancel: React.PropTypes.func,
+    onOpen: React.PropTypes.func,
     initialDate: React.PropTypes.instanceOf(Date),
     minDate: React.PropTypes.instanceOf(Date),
     maxDate: React.PropTypes.instanceOf(Date),
