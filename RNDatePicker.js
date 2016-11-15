@@ -202,9 +202,7 @@ const styles = StyleSheet.create({
     },
     datePickerIOSWrapper: {
         width: WIN.width,
-        backgroundColor: 'white',
-        alignItems: 'center',
-        justifyContent: 'center'
+        backgroundColor: 'white'
     },
     datePickerIOS: {
         backgroundColor: 'white'
